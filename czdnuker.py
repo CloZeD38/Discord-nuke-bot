@@ -8,7 +8,7 @@ prefix = '!' # префикс бота
 
 token = 'токен бота'
 
-
+# интенты
 intents = Intents.default()
 intents.members = True
 client = commands.Bot(command_prefix=prefix,
