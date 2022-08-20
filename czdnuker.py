@@ -1,3 +1,4 @@
+# библиотеки
 from discord import Intents
 from discord.ext import commands
 from requests import put
