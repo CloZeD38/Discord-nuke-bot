@@ -1,5 +1,5 @@
 # Discord-nuke-bot:
-Краш бот дискорд написанный на Python
+Краш бот написанный на Python.
 # Начало:
 1. Скачиваем Python с официального сайта https://www.python.org/.
 
