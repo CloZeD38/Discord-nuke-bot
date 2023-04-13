@@ -12,7 +12,7 @@
 ```pip install -r requirements.txt```
 
 
-3. Создаем своего бота на сайте https://discord.com/developers/applications. Дальше надо включить интенты "Members intents" и "Presence intents".
+3. Создаем своего бота на сайте https://discord.com/developers/applications. Дальше нужно включить интенты "Members intents" и "Presence intents".
 
 4. Копируем токен и вставляем в файле czdnuker.py.
 
