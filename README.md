@@ -12,7 +12,7 @@
 
 3. Создаем своего бота на сайте https://discord.com/developers/applications. Дальше нужно включить интенты ```Members intents``` и ```Presence intents```.
 
-4. Копируем токен и вставляем в файле ```czdnuker.py``|.
+4. Копируем токен и вставляем в файле ```czdnuker.py```.
 
 5. Открываем в дериктории бота консоль и пишем команду
 ```python czdnuker.py```.
